@@ -16,3 +16,16 @@ print(string.capitalize())
 # center
 string="hzj"
 
+
+# 类型检测
+from typing import Optional,List
+def func(res: bool) -> List[str,str]:
+    if res:
+        print(res)
+    else:
+        print(False)
+
+if __name__ == '__main__':
+    func(False)
+
+    
